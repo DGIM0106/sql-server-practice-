@@ -1,6 +1,6 @@
 CREATE TABLE Departamentos
 (
-	DepartamentoId INT PRIMARY KEY,
+	DepartamentoId INT PRIMARY KEY IDENTITY(1,1),
 	NombreDepartamento VARCHAR(75)
 );
 GO
